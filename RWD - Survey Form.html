@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="RWD - Survey-Form.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <!-- inicio do formulário-->
+    <form id="survey-form" action="/submit">
+      <div>
+        <p id="description">Questionário sobre Séries</p>
+      </div>
+        <hr>
+      <!--pt1-->
+      <label id="name-label"> Nome:</label>
+      <input id="name" type="name" name="name" placeholder="Enter your name" required>
+      <br>
+      <br>
+      <label id="email-label">Email: </label>
+      <input id="email" type="email" name="email" placeholder="Enter your email" required>
+      <br>
+      <br>
+      <label id="number-label">Idade: </label>
+      <input id="number" type="number" name="number" placeholder="Age" required>
+       <br>
+      <br>
+      <!--pt2-->
+  <label id="p2"> Qual sua série favorita? </label>
+   <select id="dropdown">
+  <option value="Select" disabled>Selecione uma opção</option>
+  <option value="Got">Game of  Thrones</option>
+  <option value="WW">Westworld</option>
+  <option value="River">Riverdale</option>
+  <option value="Gravity">Gravity Falls</option>
+  <option value="Handmaid's">The Handmaid's Tale</option>
+  <option value="Doctor">Doctor Who</option>
+    </select>
+      <br>
+      <br>
+      <!--pt 3 -->
+      <label id="p3">Quais as chances de você recomendar esta série<br> a um amigo?</label><br>
+      <div class="option">
+       <input type="radio" name="option" value="com certeza" checked> Com certeza<br>
+       <input type="radio" name="option" value="dificilmente" checked> Dificilmente<br>
+       <input type="radio" name="option" value="talvez" checked> Talvez<br>
+      </div>
+        <!--pt4-->
+      <label  id="p4">O que você mais gosta nessa série?</label>
+    <select class="option2">
+      <option value="Select" disabled>Selecione uma opção</option>
+      <option value="personage">Os Personagens</option>
+      <option value="Story">A História</option>
+      <option value="Style">O Tempo</option>
+    </select>
+      <br>
+      <br>
+      <!--pt5-->
+
+      <label id="p5">Coisas que devem ser melhoradas no futuro</label><br>
+      <div class="check">
+      <input type="checkbox" name="story2" value=" story"> O desenrolar da história<br>
+      <input type="checkbox" name="evolution" value=" evolution"> O desenvolvimento e evolução dos personagens<br>
+      <input  type="checkbox" name="scene" value=" cenario"> Os cenários<br>
+      <input type="checkbox" name="action" value=" luta"> Mais cenas de ação/luta<br>
+      <input type="checkbox" name="violence" value=" violencia"> Menos cenas de violência<br>
+      <input type="checkbox" name="dialogues" value=" dialogo"> Mais diálogos<br>
+      <input type="checkbox" name="less-nudity" value=" nudez"> Menos cenas de nudez<br>
+      <input type="checkbox" name="more-nudity" value="nudez2"> Mais cenas de nudez<br>
+      <input type="checkbox" name="more-interaction" value=" personagem"> Maior interação entre personagens<br>
+      </div>
+      <br>
+      <!--pt6-->
+      <label id="p6">Quaisquer comentários ou sugestões?</label>
+      <textarea id="msg" name="comment" rows="4" cols="45" placeholder="Enter your comment"></textarea>
+      <br><br>
+      <!--button-->
+      <input id="submit" type="submit" value="Submit">
+    </form>
+    <!-- final do formulário-->
+  </body>
+</html>
