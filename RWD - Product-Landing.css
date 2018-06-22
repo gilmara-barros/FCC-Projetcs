@@ -1,0 +1,227 @@
+
+body{
+background-color:#83B692
+}
+#header{
+  background-image: url("https://thumbs.dreamstime.com/b/seamless-pattern-vintage-bicycles-green-background-vector-illustration-fabrics-backgrounds-scrapbooking-44221606.jpg");
+}
+a{
+  color: #C65B7C;
+  text-decoration: none;
+}
+#nome{
+  color: black;
+}
+#nome, #form, #home{
+text-align: center;
+}
+#home{
+  color: black;
+  font-size: 25px;
+}
+#nav-bar ul{
+  list-style: none;
+  word-spacing: 100px;
+  text-align: center;
+}
+#nav-bar ul li{
+  display: inline;
+  position: relative;
+  left: -14px;
+  top: -8px;
+  font-size: 26px;
+}
+#header-img{
+  position:relative ;
+  left:615px;
+  bottom: -16px;
+}
+#email{
+  font-size: 16px;
+}
+/* Mais sobre o produto*/
+#icone1{
+  position: relative;
+   left: 300px;
+  bottom: 30px;
+}
+#icone2{
+  position: relative;
+   left: 300px;
+  bottom: 10px;
+}
+#icone3{
+  position: relative;
+   left: 300px;
+  bottom: -10px;
+}
+#boxes{
+position: flex;
+}
+#model{
+  display: flex;
+}
+.p1{
+ border: 2px solid #C65B7C;
+   position: relative;
+   left: 100px;
+   bottom: -100px;
+
+}
+.p2{
+ border: 2px solid #C65B7C;
+   position: relative;
+   left: 200px;
+   bottom: -100px;
+
+}
+.p3{
+ border: 2px solid #C65B7C;
+   position: relative;
+   left: 300px;
+   bottom: -100px;
+}
+
+#submit1, #submit2, #submit3{
+  background-color: #C65B7C;
+  border: none;
+  font-size: 20px;
+  font-family: sans;
+  color: black;
+  border-radius: 19px;
+}
+#submit{
+  background-color: #C65B7C;
+  border: none;
+  font-size: 20px;
+  font-family: sans;
+  color: black;
+  border-radius: 19px;
+}
+#descrição1{
+  font-size: 23px;
+  position: absolute;
+  bottom:194px ;
+  left: 410px;
+  font-weight: bold;
+  color: #C65B7C;
+}
+#descrição2{
+  font-size: 23px;
+  position: absolute;
+  left: 410px;
+  bottom:110px;
+  font-weight: bold;
+  color: #C65B7C;
+}
+#descrição3{
+  font-size: 23px;
+  position: absolute;
+  left: 410px;
+  bottom:20px;
+  font-weight: bold;
+  color: #C65B7C;
+}
+.sobre1{
+  font-size: 19px;
+  font-family: sans;
+  position:absolute ;
+  left: 410px;
+  bottom:170px;
+   font-weight: bold;
+  color:black;
+}
+.sobre2{
+  font-size: 19px;
+  font-family: sans;
+  position:absolute ;
+  left: 410px;
+  bottom: 70px;
+  font-weight: bold;
+  color:black;
+}
+.sobre3{
+  font-size: 19px;
+  font-family: sans;
+  position:absolute ;
+  left: 411px;
+  bottom: -15px;
+  font-weight: bold;
+  color:black;
+}
+/* */
+#video{
+position: relative;
+left: 410px;
+bottom: -80px;
+border: 5px solid #C65B7C;
+border-radius: 6px;
+}
+.b1, .b2, .b3{
+  position: absolute;
+  bottom: 32px;
+  left: 90px;
+}
+.produto{
+  position: absolute;
+  left: 70px;
+  bottom: 50px;
+}
+.price{
+  position: absolute;
+  top: 40px;
+  left: 120px;
+}
+#about{
+  position:absolute;
+  background-image: url("https://thumbs.dreamstime.com/b/seamless-pattern-vintage-bicycles-green-background-vector-illustration-fabrics-backgrounds-scrapbooking-44221606.jpg");
+width: 99%;
+}
+#menu{
+  color: #C65B7C;
+}
+#rodape{
+  display: flex;
+  position: relative;
+  top: -10px;
+  left: -20px;
+ font-size: 28px;
+ background-color: #fff;
+ border: 3px solid #C65B7C;
+ border-radius: 10px;
+font-size: 16px;
+}
+ul{
+  list-style: none;
+}
+
+#social{
+  height: 50px;
+}
+.box1{
+  width: 300px;
+  height: 100px;
+  border: 2px solid #C65B7C;
+  background-color: white;
+  position: relative;
+  left:100px;
+  bottom: -80px;
+}
+.box2{
+  width: 300px;
+  height: 100px;
+  border: 2px solid #C65B7C;
+  background-color: white;
+  position: relative;
+  left:504px;
+  bottom:20px;
+}
+.box3{
+  width: 300px;
+  height: 100px;
+  border: 2px solid #C65B7C;
+  background-color: white;
+  position: relative;
+  left:908px;
+  top:-120px;
+}
