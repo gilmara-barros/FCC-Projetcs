@@ -1,0 +1,89 @@
+body{
+ background: linear-gradient(to right, #C04848, #480048);
+  font-size: 18px;
+  line-height: 27px;
+}
+#title, div, form{
+  text-align: center;
+}
+div{
+  padding-top: 3px;
+}
+form{
+ width: 70%;
+ background-color: #fff;
+ margin-left: 200px;
+ border-radius: 10px;
+  margin-bottom: 10px;
+ }
+fieldset{
+  width: 50px;
+  padding-left: 30%;
+}
+input::placeholder {
+  font-size: 13px;
+}
+#p6{
+  position: absolute;
+  left: 390px;
+}
+textarea{
+ Position: relative;
+  left: 157px;
+  bottom: -3px;
+}
+#p5{
+  position: absolute;
+  left: 350px;
+}
+.check{
+  position: relative;
+ text-align: left;
+  left:  470px;
+}
+#p4{
+  position: absolute;
+  left: 412px;
+}
+.option2{
+  position: relative;
+  left: 86px;
+}
+#p3{
+  position: absolute;
+  left: 312px;
+}
+.option{
+  position: relative;
+  text-align: left;
+  right: -470px;
+  top: -20px;
+}
+#p2{
+  position: absolute;
+  left: 487px;
+}
+#dropdown{
+  position: relative;
+  left: 85px;
+}
+#name-label,#email-label,#number-label{
+  position: absolute;
+  right: 690px;
+}
+#name, #email, #number{
+  position: relative;
+  left: 95px;
+}
+#submit{
+  color: black;
+  background-color: #C04848;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  font-family: Lobster;
+}
+#submit:hover{
+  font-size:19px;
+  font-weight: 300;
+}
