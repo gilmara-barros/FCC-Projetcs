@@ -1,0 +1,218 @@
+<html>
+<head>
+<style>
+body{
+   background-color:  #232931;
+}
+#navbar{
+  position: fixed;
+  background-color: #232931;
+  width: 100%;
+  top:-9px;
+  z-index: 1;
+}
+#navbar ul li{
+ display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+  letter-spacing: 2px;
+  right: 30px;
+  font-size: 18px;
+}
+
+#navbar ul{
+  word-spacing: 40px;
+  text-align: right;
+}
+
+a{
+  text-decoration: none;
+  color: #eeeeee;
+}
+a:hover{
+  color: #4ecca3;
+}
+#welcome-section{
+  background: linear-gradient(45deg, #4ecca3 50%,#393e46  50%);
+  height: 700px;
+}
+#welcome-section:hover{
+  background: linear-gradient(45deg);
+}
+h1{
+  position: absolute;
+  top: 280px;
+  left: 460px;
+  font-size: 40px;
+  border-bottom: 2px groove  #eee;
+
+}
+.hi{
+background: -webkit-linear-gradient(left, #393e46 46%, #4ecca3 54%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+/* Section Two*/
+#projects{
+  height: 700px;
+  background-color: #4ecca3;
+}
+h2{
+  position: relative;
+  text-align: center;
+  top: 50px;
+  font-size: 30px;
+  border-bottom: 2px groove #eee;
+}
+.project-tile > div{
+  height: 280px;
+  width: 280px;
+  boder: 2px solid ;
+  border-radius: 20px;
+  background-color: black;
+  margin: 80px;
+}
+.project-tile1{
+  position: relative;
+  top: 140px;
+  left: 40px;
+  box-shadow: 3px 6px 8px 1px rgba(0, 0, 0, 0.5), 0 6px 30px 0 rgba(0, 0, 0, 0.29);
+  background-image: url('https://voguegirl.jp/wp-content/gallery/audrey-hepburn-life-lesson/01aflo_gzhc001038.jpg');
+  background-size: cover;
+}
+.project-tile1:hover{
+  width: 300px;
+  height: 300px;
+}
+.project-tile2{
+  position: relative;
+  top: -215px;
+  left: 440px;
+  box-shadow: 3px 6px 8px 1px rgba(0, 0, 0, 0.5), 0 6px 30px 0 rgba(0, 0, 0, 0.29);
+  background-image: url('https://thumbs.dreamstime.com/b/user-login-page-background-form-icon-dark-blue-color-gradient-rounded-corners-50452449.jpg');
+  background-size: cover;
+}
+.project-tile2:hover{
+  width: 300px;
+    height: 300px;
+  }
+.project-tile3{
+  position: relative;
+  top: -570px;
+  left: 840px;
+  box-shadow: 3px 6px 8px 1px rgba(0, 0, 0, 0.5), 0 6px 30px 0 rgba(0, 0, 0, 0.29);
+  background-image: url('https://i.pinimg.com/originals/66/3e/c7/663ec720b3d18bb4d5de1e2381b10c66.jpg');
+  background-size: cover;
+}
+.project-tile3:hover{
+  width: 300px;
+    height: 300px;
+  }
+button{
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  position: relative;
+  top: 300px;
+  left:90px;
+}
+/* section three*/
+#contacts{
+  height: 500px;
+  background-color: #eee;
+  word-spacing: 100px;
+}
+#profile-link, #profile-link2{
+  position: relative;
+  top: 150px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  left: 350px;
+  background-image: url('https://cdn.icon-icons.com/icons2/901/PNG/512/github_icon-icons.com_69253.png');
+  background-size: cover;
+}
+#profile-link1{
+  position: relative;
+  top: 150px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  left: 350px;
+  background-image: url('https://cdn.icon-icons.com/icons2/805/PNG/512/twitter_icon-icons.com_65927.png');
+  background-size: cover;
+}
+#profile-link2{
+  position: relative;
+  top: 150px;
+  display: inline-block;
+  width: 155px;
+  height: 155px;
+  left: 350px;
+  background-image: url('https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-instagram-icon-logo-by-vexels.png');
+  background-size: cover;
+}
+
+.github{
+   position: relative;
+   top: 50px;
+   left: 0px;
+   font-size: 50px;
+   opacity: 0;
+}
+.twitter{
+   position: relative;
+   top: 50px;
+   font-size: 50px;
+   opacity: 0;
+}
+.instagram{
+   position: relative;
+   top: 50px;
+   left: 0px;
+   font-size: 50px;
+   opacity: 0;
+}
+</style>
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <ul>
+        <li><a href=#welcome-section>About</a></li>
+        <li><a href=#projects>Projects</a></li>
+        <li><a href=#contacts>Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--section one-->
+  <section id="welcome-section">
+    <h1 class="hi">Hi, i am Mara Barros!!</h1>
+  </section>
+   <!--section two-->
+  <section id="projects">
+    <h2>These are some of my projects:</h2>
+    <div class="project-tile">
+    <div class="project-tile1">
+     <button class="button1"><a href="https://codepen.io/Marabc/pen/vrpZeb" target="_blank">See More</a></button>
+    </div>
+    <div class="project-tile2">
+<button class="button1"><a href="https://codepen.io/Marabc/pen/QxQGWr" target="_blank">See More</a></button>
+    </div>
+     <div class="project-tile3">
+<button class="button1"><a href="https://codepen.io/Marabc/pen/mKxbjM" target="_blank">See More</a></button>
+     </div>
+    </div>
+  </section>
+   <!--section three-->
+  <section id="contacts">
+    <h2>Contacts</h2>
+    <div id="profile-link"><a class="github" href="https://github.com/queen-of-the-elves" target="_blank">GitHub</a></div>
+    <div id="profile-link1"><a class="twitter" href="https://twitter.com/Mara_barrosc" target="_blank">Twitter</a></div>
+    <div id="profile-link2"><a class="instagram" href="https://www.instagram.com/mara_barrosc/" target="_blank">Instagram</a></div>
+  </section>
+</body>
+</html>
